@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+:root {
+    --first-color: #f0ece2;
+    --second-color: #dfd3c3;
+    --third-color: #c7b198;
+    --fourth-color: #596e79;
+}
+
+body {
+    background: var(--first-color);
+}
+
+/* GENERAL */
+
+.title {
+    padding: 20px;
+    text-align: center;
+    background: var(--second-color);
+    margin-bottom: 10px;
+
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* INDEX */
+
+.home-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.recipes {
+    margin: 0px;
+    text-align: center;
+}
+
+.recipes h2 {
+    margin-bottom: 0px;
+}
+
+.recipes li {
+    margin-top: 10px;
+}
+
+/* RECIPES PAGES */
+
+.recipe {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.recipe img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+}
+
+.description {
+    margin-left: 20px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+.ingredients {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.ingredients li {
+    list-style: square inside;
+}
+
+.instructions {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.instructions li {
+    list-style-type: none;
+}
+
+.original {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+}
